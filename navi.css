@@ -1,21 +1,33 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0; /* ページのマージンをリセット */
+}
+
+nav {
+    position: fixed; /* ナビゲーションバーを画面上部に固定 */
+    top: 0; /* 画面上部に配置 */
+    width: 100%; /* 幅を100%に設定 */
+    z-index: 1000; /* 他の要素よりも手前に表示 */
+    background-color: purple;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: purple;
+    margin: 0; /* ナビゲーションリストのマージンをリセット */
 }
 
 nav ul li {
     display: inline-block;
     margin-right: 10px;
+    position: relative; /* 相対位置指定 */
 }
 
 nav ul li ul {
     display: none;
     position: absolute;
+    top: 100%; /* 親要素の下に配置 */
+    left: 0; /* 左端に配置 */
     background-color: purple;
 }
 
