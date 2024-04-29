@@ -55,3 +55,15 @@ nav ul li a {
 nav ul li ul li a {
     padding: 10px 20px;
 }
+
+h3{
+ color:red;
+}
+section1{
+ text-align: center;
+}
+
+home{
+    margin-left: auto;
+    text-align: center;
+    }
