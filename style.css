@@ -4,9 +4,10 @@ h3{
 section{
  text-align: center;
 }
-afday{
- background-color: white;
-}
+
 .body {
   background-color: skyblue;
+}
+afday{
+ background-color: white;
 }
