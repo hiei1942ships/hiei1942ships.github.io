@@ -59,11 +59,8 @@ nav ul li ul li a {
 h3{
  color:red;
 }
-section1{
- text-align: center;
-}
-
 home{
+    width: 200px;
     margin-left: auto;
     text-align: center;
     }
