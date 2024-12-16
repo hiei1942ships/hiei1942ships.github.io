@@ -1,0 +1,4 @@
+AuthUserFile code/.htpasswd
+AuthName “IDはaprilを入れてください”
+AuthType Basic
+require valid-user
