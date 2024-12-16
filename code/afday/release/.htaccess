@@ -1,4 +1,4 @@
-AuthUserFile code/.htpasswd
+AuthUserFile code/afday/release.htpasswd
 AuthName “IDはaprilを入れてください”
 AuthType Basic
 require valid-user
