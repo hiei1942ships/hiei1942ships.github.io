@@ -16,6 +16,8 @@ td {
 }
 body {
 background-color: aquamarine;
+text-align: center;
+margin: auto;
 }
 .caution {
     color: red;
