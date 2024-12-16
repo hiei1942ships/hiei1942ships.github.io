@@ -2,6 +2,28 @@ h2 {
     font-family: Arial, sans-serif;
     margin: 0; /* ページのマージンをリセット */
 }
+.home{
+    font-size: x-large;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    }
+table {
+margin: auto;
+td {
+    text-align: center;
+}
+}
 body {
 background-color: aquamarine;
+}
+.caution {
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+.readme {
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
 }

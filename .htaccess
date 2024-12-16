@@ -1,2 +1,9 @@
-ErrorDocument 404 /404.html
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
 Options -Indexes
+ErrorDocument 404 /404.html
+ErrorDocument 406 /406.html
+ErrorDocument 410 /410.html
+DirectoryIndex index.html       
+order deny,allow

@@ -1,4 +1,11 @@
-AuthUserFile code/afday/release.htpasswd
-AuthName “IDはaprilを入れてください”
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+AuthUserFile /code/afday/release/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
 AuthType Basic
-require valid-user
+require valid-user 
+DirectoryIndex index.html       
+order deny,allow
